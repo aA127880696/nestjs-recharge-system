@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "My NestJS Recharge API",
   "scripts": {
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:prod": "node dist/main.js",
-    "build": "nest build"
-  },
+  "start": "node dist/main.js",
+  "start:dev": "nest start --watch",
+  "build": "tsc -p tsconfig.build.json"
+},
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
